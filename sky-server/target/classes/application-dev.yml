@@ -1,0 +1,36 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: sky_take_out
+    username: root
+    password: 335060
+
+  alioss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    access-key-id: LTAI5tNsZCY8wFmrJEhwcGXo
+    access-key-secret: WydXi1JCdklIV1A1Mwofd8Xhr8gQxb
+    bucket-name: web-tlias-zyr-1
+  wechat:
+    appid: wx561bb9bf8e2146e1
+    secret: 1a400ff292f7a6fd3e03964c9a6fb597
+    mchid: /////////
+    mch-serial-no: ////////
+    private-key-file-path: ////////
+    api-v3-key: /////////
+    we-chat-pay-cert-file-path: ////////
+    notify-url: http://3095285.r23.cpolar.top/notify/paySuccess
+    refund-notify-url: http://3095285.r23.cpolar.top/notify/refundSuccess
+  shop:
+    address: 安徽省合肥市瑶海区安徽中医药大学少荃湖校区食堂
+  bdmap:
+    appid: 54414729
+    appname: sky_map
+    appak: tsz7yW3dA0WoiKrWN4fX4Uvv11lkpwvl
+spring:
+  redis:
+    host: localhost
+    port: 6379
+    password: 335060
+    database: 10
